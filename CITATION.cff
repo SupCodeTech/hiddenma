@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below, together with the accompanying paper."
+title: "hiddenma: exact rational Bernstein endpoint certification for shared-transition HMMs"
+version: 0.2.0
+authors:
+  - family-names: Chen
+    given-names: Jianwei
+    affiliation: "The University of Adelaide"
+repository-code: "https://github.com/SupCodeTech/hiddenma"
+keywords:
+  - hidden Markov models
+  - identifiability
+  - confidence sequences
+  - Bernstein polynomials
+  - verified computation
+references:
+  - type: dataset
+    title: "Functional identifiability and certified time-uniform posterior inference in hidden Markov models with transition matrices mixed from known modes"
+    authors:
+      - family-names: Chen
+        given-names: Jianwei
+    doi: 10.5281/zenodo.24462482
+    publisher:
+      name: Zenodo
+    year: 2026
