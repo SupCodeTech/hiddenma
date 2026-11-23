@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hmmcert-research-reproduction"
+version = "0.1.0"
+description = "Exact rational Bernstein endpoint certification for shared-transition HMMs"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[project.scripts]
+hmmcert = "hmmcert.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["hmmcert*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.setuptools.package-data]
+hmmcert = ["data/*.json"]
